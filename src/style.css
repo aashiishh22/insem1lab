@@ -1,0 +1,112 @@
+/* Weather App Static UI */
+
+body {
+  background: linear-gradient(180deg, #89f7fe, #66a6ff);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.appRoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: center;
+}
+
+.title {
+  color: #1e90ff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.button {
+  margin-left: 10px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #f8faff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.city {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.condition {
+  color: #666;
+  margin-top: 5px;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1e90ff;
+  margin: 10px 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  color: #333;
+}
+
+.footerNote {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #999;
+}
+
+.examples {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.sampleBtn {
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.sampleBtn:hover {
+  background-color: #0b74da;
+}
+
